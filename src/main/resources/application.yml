@@ -1,0 +1,16 @@
+spring:
+   main:
+      web-application-type: none
+logging:
+  level:
+    ca:
+      gov:
+        bc: DEBUG
+bcgov:
+  access:
+    input:
+      document-type: test-doc
+      plugin: console
+    output:
+      document-type: test-doc
+      plugin: console
